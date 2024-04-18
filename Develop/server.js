@@ -5,7 +5,7 @@ const app = express();
 // links router from routes/index.js file
 const api = require("./routes/index.js");
 // Assign PORT #
-const PORT = 4040;
+const PORT = process.env.PORT || 4040;
 
 // Call middleware functions; make public dir available, add body parsing functions (backwards-compatibility)
 app.use(express.static("public"));
