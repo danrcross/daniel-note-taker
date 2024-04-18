@@ -1,0 +1,7 @@
+[
+  {
+    "title": "The note's title is here",
+    "text": "The text content of the note is here. In the .json file, after the text, should be another property called 'id,' containing a randomly generated ID!",
+    "id": "dz7xkktwbs9uu3o22wx3"
+  }
+]
