@@ -16,12 +16,12 @@ app.use("/api", api);
 
 // Add index.html to root path; http request w/o any query params will be directed to index.html
 app.get("/", (req, res) =>
-  res.sendFile(path.join(__dirname, "/public/index.html"))
+  res.sendFile(path.join(__dirname, "./public/index.html"))
 );
 
 // Add notes.html to /notes path. Http request followed by /notes query param will be directed to notes.html
 app.get("/notes", (req, res) =>
-  res.sendFile(path.join(__dirname, "/public/notes.html"))
+  res.sendFile(path.join(__dirname, "./public/notes.html"))
 );
 
 // Start server
