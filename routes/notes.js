@@ -3,6 +3,7 @@
 const notes = require("express").Router();
 
 // Destructures the functions found in the fsUtils.js helper file; makes them available for use in this script.
+// Helper taken from activity 22 for module 11
 const {
   readFromFile,
   readAndAppend,

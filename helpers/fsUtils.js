@@ -1,4 +1,4 @@
-// TAKEN FROM MODULE 11 ACTIVITY # 22 !!
+//  Helper taken from activity 22 for module 11
 const fs = require("fs");
 const util = require("util");
 
